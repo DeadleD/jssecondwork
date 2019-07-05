@@ -1,31 +1,8 @@
-/
-
-class SmallestIntegerFinder {
-  findSmallestInt(args) {
-    return Math.min(...args)
-  }
+    
+task - 1 - https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript?fbclid=IwAR37Wnlnp3RIM5X5EDt0qkdqM2GP6xV0mCh_DI0LfFe68Cefcsx7vtloT4o
+ 
+function circleCircumference(circle) {
+  return (circle.radius * 2) * Math.PI;
 }
 
-//
-function getLength(arr){
-  return arr.length;
-}
-function getFirst(arr){
-  return arr[0];
-}
-function getLast(arr){
-  return arr[arr.length-1];
-}
-function pushElement(arr){
-  arr.push(1);
-  return arr;
-}
-function popElement(arr){
-  arr.pop()
-  return arr;
-}
-
-///
-function DNAtoRNA(dna) {
-  return dna.replace(/T/g, 'U');
-}
+task - 2 - https://www.codewars.com/kata/training-js-number-13-number-object-and-its-properties/train/javascript
